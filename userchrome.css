@@ -49,6 +49,7 @@
 	--image-text: #bb8968;
 	--strong: #97e7b6;
 	--links: #424f63;
+    /* --links: #3cbd65; */
 	--url: #97b88b;
 	--link-text: var(--yellow);
 	--separator: #4d5b72;
@@ -520,3 +521,38 @@ span.cm-header.cm-rm-highlight{
 		width: auto !important;
 	}
 }
+
+
+/* --- Markdown Table Colorize CSS --- */
+.cm-tabcolor-row {
+	color: var(--joplin-color) !important;
+}
+.cm-tabcolor-header {
+	font-weight: bolder;
+	color: var(--joplin-color) !important;
+}
+.cm-tabcolor-col1, .cm-tabcolor-col7 {
+	background-color: transparent !important;
+	color: #007bff !important;
+}
+.cm-tabcolor-col2, .cm-tabcolor-col8 {
+	background-color: transparent !important;
+	color: #6c757d !important; 
+}
+.cm-tabcolor-col3, .cm-tabcolor-col9 {
+	background-color: transparent !important;
+	color: #28a745 !important;
+}
+.cm-tabcolor-col4, .cm-tabcolor-col10 {
+	background-color: transparent !important;
+	color: #dc3545 !important;
+}
+.cm-tabcolor-col5, .cm-tabcolor-col11 {
+	background-color: transparent !important;
+	color: #ffc107 !important;
+}
+.cm-tabcolor-col6, .cm-tabcolor-col12 {
+	background-color: transparent !important;
+	color: #17a2b8 !important;
+}
+
