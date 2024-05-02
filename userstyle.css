@@ -71,7 +71,7 @@ body {
 /* Copy to clipboard */
 .joplin-editable::before {
     content: element(heading); 
-  }
+}
 
 ol{ 
     margin-top: 0;
@@ -79,16 +79,17 @@ ol{
 }
 
 /* RENDERED CONTENT PADDING */
-#rendered-md {
+
+/* #rendered-md {
     padding: 5%;
-    /* render auto-column layout */
+    // render auto-column layout
     column-count: auto;
     column-width: 30rem;
     column-gap: 2rem;
     column-rule-color: var(--secondary);
     column-rule-style: dashed;
     column-rule-width: 2px;
-}
+} */
 
 .resource-icon { width: 1.2em; height: 1.2em; }
 .fa-joplin {
@@ -233,6 +234,10 @@ pre {
     font-family: "Fira Code" !important;
     font-size: var(--lessthan-regular);
     break-inside: avoid;
+}
+
+code {
+    white-space: pre-wrap;
 }
 
 /* `INLINE CODE` */

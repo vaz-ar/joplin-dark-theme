@@ -24,7 +24,7 @@ Took some inspiration on the PHPStorm [Nord](https://www.nordtheme.com/ports/jet
 
 In order to use these stylesheets, place them in `~/.config/joplin-desktop/` on linux, and in `%userprofile%\.config\joplin-desktop\` on windows.
 
-### fonts used in this custom theme :
+### fonts used in this custom theme
 
 - Editor font family : [Fira Code](https://github.com/tonsky/FiraCode) font size at 13
 - [Noto Sans JP](https://fonts.google.com/specimen/Noto+Sans+JP)
